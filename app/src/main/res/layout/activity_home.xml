@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    tools:context=".HomeActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.cardview.widget.CardView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="कोव्हिड-19 पासून संरक्षण कसं करायचं?"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorBlack"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:src="@drawable/symptoms"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"/>
+                    <TextView
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginHorizontal="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="चीनमधून सुरू झालेल्या कोरोना व्हायरसचा संसर्ग आता जगभरातल्या 185हून अधिक देशा-प्रांतांमध्ये पोहोचलाय. जगभरात कोरोना बाधितांची संख्या जवळजवळ 19 लाखांवर पोहोचली आहे तर मृतांचा आकडा 1 लाख 20 हजारांवर गेलाय. "/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="कोरोना विषाणू आहे काय?"
+                        android:textSize="20dp"
+                        android:textColor="@color/colorBlack"
+                        android:gravity="center" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="    रुग्णांमधून घेतलेल्या या विषाणूच्या सॅम्पलची प्रयोगशाळेत चाचणी करण्यात आली. त्यानंतर चीनचे अधिकारी आणि जागतिक आरोग्य संघटनेने हा कोरोना वायरस असल्याचं सांगितलं. "
+                        android:layout_margin="5dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="    कोरोना विषाणूचे अनेक प्रकार आहेत. मात्र, यापैकी केवळ सहा प्रकारच्या विषाणूंची माणसाला बाधा होऊ शकते. मात्र, नव्या विषाणूचा शोध लागल्यानंतर संक्रमित होणाऱ्या कोरोना विषाणूंची संख्या आता सात झाली आहे. या नव्या कोरोना विषाणूच्या जेनेटिक कोडचं विश्लेषण करण्यात आलं. कोरोना विषाणूचा एक प्रकार म्हणजे सार्स. हा नवा विषाणू सार्सच्या जवळचा असल्याचं संशोधकांनी केलेल्या विश्लेषणात आढळलं आहे. "/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_margin="5dp"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/weew"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="उपाययोजना"
+                            android:textSize="20dp"
+                            android:textColor="@color/colorBlack"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_margin="5dp"
+                            android:layout_height="wrap_content"
+                            android:text="    कोरोना विषाणूची बाधा झालेल्या रुग्णांवर स्वतंत्र खोलीत उपचार सुरू आहेत, जेणेकरून इतरांना याचा संसर्ग होऊ नये. प्रवाशांना ताप आहे का, हे तपासण्यासाठी प्रवासी ये-जा करतात अशा सर्व ठिकाणी थर्मल स्क्रिनिंगची व्यवस्था करण्यात आली आहे. " />
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/precautions"/>
+                    <TextView
+                        android:layout_alignParentBottom="true"
+                        android:layout_width="match_parent"
+                        android:layout_margin="5dp"
+                        android:layout_height="wrap_content"
+                        android:text="    याशिवाय स्वच्छता राखता यावी आणि संसर्ग टाळवा, यासाठी सी-फूड मार्केट काही काळ बंद करण्यात आले आहेत. या सर्व उपाययोजना केवळ चीनमध्ये करण्यात आल्या आहेत, असं नाही. चीनव्यतिरिक्त आशियातील इतर अनेक देश आणि अमेरिकेतही असेच खबरदारीचे उपाय योजण्यात आले आहेत. "/>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
